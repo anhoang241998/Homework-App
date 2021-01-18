@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:padding="8dp"
+        android:text="HelloWorld"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Nhap so dien thoai can goi"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_input_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:hint="Enter Phone Number"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:text="Gọi"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeShowing</string>
+    <string name="btn_detail">Xem thời gian</string>
+    <string name="txt_detail">MyImage</string>
+</resources>
